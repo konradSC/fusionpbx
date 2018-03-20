@@ -1070,7 +1070,7 @@
 						}
 					}
 					else {
-						if (strtolower($device_vendor) == "cisco" or strtolower($row['device_key_vendor']) == "yealink") {
+						if (strtolower($device_vendor) == "cisco") {
 							if ($row['device_key_category'] == "expansion-1" || $row['device_key_category'] == "expansion") {
 								echo "	<option value='expansion-1' selected='selected'>".$text['label-expansion']." 1</option>\n";
 							}
